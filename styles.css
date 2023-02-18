@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080c20;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+h2, h3, h4 {
+    color: white;
+}
+
+p {
+    font-size: 13px;
+    color: white;
+}
+
+header {
+    margin: 80px 0 100px 160px;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.left-image {
+    position: relative;
+    right: 60px;
+}
+
+.right-image {
+    position: relative;
+    left: 60px;
+}
+
+.description {
+    text-align: center;
+    color: white;
+    background-image: url("Images/bg-hero-squiggle.svg");
+}
+
+.description-header {
+    margin: 90px 60px 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.description span {
+    color: #3ee9e5;
+}
+
+.description-paragraph {
+    margin: 20px auto 70px auto;
+    width: 490px;
+    opacity: 0.5;
+}
+
+.second-container {
+    display: flex;
+    margin: 200px auto 100px ;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.second-container img {
+    padding-top: 20px;
+    width: 75px;
+}
+
+.image-div {
+    width: 130px;
+    height: 130px;
+    background-color: #0f3f69;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+.second-container h4 {
+    padding: 40px 0 20px;
+}
+
+.second-container-paragraph {
+    width: 240px;
+    opacity: 0.5;
+}
+
+.third-container {
+    padding: 0 40px 70px;
+    height: 800px;
+}
+
+.pricing-columns {
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+    position: relative;
+}
+
+.pricing-col-1 {
+    display: inline-block;
+    background-color: #0f3f69;
+    padding: 30px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: absolute;
+    left: 130px;
+}
+
+.pricing-col-2 {
+    display: inline-block;
+    background-color: #3ee9e5;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+}
+
+.pricing-heading {
+    width: 50%;
+    margin: 200px auto 100px;
+    text-align: center;
+}
+
+.pricing-heading h2 {
+    margin-bottom: 30px;
+}
+
+.p-center {
+    width: 500px;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+
+.pricing-paragraph {
+    opacity: 0.5;
+    margin-bottom: 40px;
+    width: 380px
+}
+.paragraph-col-1 {
+    display: inline;
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.head-col-1 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.paragraph-col-2 {
+    display: inline;
+    color: black;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.head-col-2 {
+    color: #080c20;
+    display: inline;
+}
+
+.i {
+    display: inline;
+    margin-bottom: 40px;
+}
+
+.l {
+    margin-bottom: 5px;
+}
+
+.hi {
+    color: #080c20;
+}
+
+.pricing-head {
+    color: black;
+}
+
+.pricing-heads {
+    margin-bottom: 30px;
+}
+
+.u {
+    margin-bottom: 40px;
+}
+
+
+.last-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.head-align {
+    margin-bottom: 40px;
+
+}
+
+.email {
+    padding: 10px;
+    border-radius: 70px;
+    width: 300px;
+    height: 45px;
+    text-align: left;
+    background-color: #0f3f69;
+    border: 0;
+    margin-right: 10px;
+
+}
+
+.btn {
+    width: 150px;
+    border-radius: 70px;
+    height: 45px;
+    border: 0;
+    background-color: #3ee9e5;
+    color: #080c20;
+}
+ 
